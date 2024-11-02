@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 90px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #121212;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 11px;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+input[type="text"]::placeholder {
+  color: #888888;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #222222;
+  color: white;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+.donation {
+  margin-top: 20px;
+  color: #888888;
+  font-size: 14px;
+}
+
+.donation span {
+  color: #ffffff;
+  font-weight: bold;
+}

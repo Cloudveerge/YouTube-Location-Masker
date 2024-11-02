@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Location Masker",
+  "version": "1.0",
+  "description": "Protect your privacy on YouTube by customizing or hiding your location tag, perfect for streamers and privacy-conscious users.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "host_permissions": ["https://www.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "author": "Cloudverge",
+  "homepage_url": "https://t.me/Cloudverge"
+}

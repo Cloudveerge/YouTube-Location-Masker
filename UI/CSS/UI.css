@@ -1,0 +1,31 @@
+* {
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    overflow-y: scroll; 
+}
+
+body {
+    min-height: 100%;
+}
