@@ -6,6 +6,8 @@
 
 > **Your Privacy, Enhanced.** Customize or hide your YouTube location tag seamlessly. Perfect for streamers and privacy-conscious users.
 
+![Preview](https://raw.githubusercontent.com/Cloudveerge/YouTube-Location-Masker/main/Preview.png)
+
 ---
 
 ## Features
